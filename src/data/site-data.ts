@@ -14,7 +14,7 @@ export const siteConfig: SiteConfig = {
   title: "Patrick Benero A — Python Full-Stack Developer",
   description:
     "Python Full-Stack Developer building Django applications with PostgreSQL, REST APIs, and Stripe integration. Three shipped projects. Open to backend and full-stack internships.",
-  url: "https://patrickbenero.dev",
+  url: "https://patrick-benero.vercel.app/",
   ogImage: "/og-image.png",
   author: "Patrick Benero A",
   email: "patrickbenero5254@gmail.com",
