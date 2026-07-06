@@ -20,16 +20,16 @@ Designed for software engineering internship recruiting — minimal, fast, and m
 
 ## Tech Stack
 
-| Layer | Technology |
-|-------|------------|
-| Framework | Next.js 15 (App Router) |
-| Language | TypeScript |
-| Styling | Tailwind CSS v4 |
-| Animation | Framer Motion, GSAP-ready |
-| UI | Shadcn UI + Radix |
-| Icons | Lucide React |
-| Fonts | Geist (Vercel) |
-| Deployment | Vercel |
+| Layer      | Technology                |
+| ---------- | ------------------------- |
+| Framework  | Next.js 15 (App Router)   |
+| Language   | TypeScript                |
+| Styling    | Tailwind CSS v4           |
+| Animation  | Framer Motion, GSAP-ready |
+| UI         | Shadcn UI + Radix         |
+| Icons      | Lucide React              |
+| Fonts      | Geist (Vercel)            |
+| Deployment | Vercel                    |
 
 ## Getting Started
 
@@ -103,61 +103,6 @@ All content lives in **`src/data/site-data.ts`**. Update:
 - Projects (add GitHub repo URLs and live demo links)
 - Certifications and education
 - SEO keywords and site URL
-
-### TODO Checklist Before Launch
-
-- [ ] Replace `/public/profile-placeholder.svg` with your professional photo
-- [ ] Update `siteConfig.url` to your production domain
-- [ ] Add per-project GitHub repo URLs in `site-data.ts`
-- [ ] Add live demo URLs where deployed
-- [ ] Pin repositories on your GitHub profile for the GitHub section
-- [ ] Optional: set `GITHUB_TOKEN` env var on Vercel for higher API rate limits
-
-## Deploy to Vercel
-
-### Option 1 — Vercel Dashboard (Recommended)
-
-1. Push this repo to GitHub
-2. Go to [vercel.com/new](https://vercel.com/new)
-3. Import the repository
-4. Framework preset: **Next.js** (auto-detected)
-5. Click **Deploy**
-
-### Option 2 — Vercel CLI
-
-```bash
-npm i -g vercel
-vercel
-```
-
-Follow the prompts. For production:
-
-```bash
-vercel --prod
-```
-
-### Environment Variables (Optional)
-
-| Variable | Description |
-|----------|-------------|
-| `GITHUB_TOKEN` | GitHub personal access token for higher API rate limits |
-
-### Custom Domain
-
-1. In Vercel project → **Settings** → **Domains**
-2. Add your domain (e.g. `patrickbenero.dev`)
-3. Update `siteConfig.url` in `src/data/site-data.ts` to match
-
-## Performance Targets
-
-Built to score **100** on Lighthouse across:
-
-- Performance
-- Accessibility
-- Best Practices
-- SEO
-
-Tips: keep images optimized, use production builds, enable Vercel Analytics optionally.
 
 ## License
 
